@@ -1,0 +1,91 @@
+body {
+    background-image: url(../imagens/background1.png);
+    background-position: center;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    padding-top: 35px;
+    background: rgb(255, 255, 255);
+    border-radius: 0 0 55px 55px;
+}
+
+.logo {
+    margin: 13px;
+}
+
+.caixa {
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 2%;
+    border-radius: 0 0 55px 55px;
+}
+
+nav {
+    padding: 5px;
+    text-align: center;
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #0000f0;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Menu / Cabeçalho */
+
+/* Corpo */
+
+td img {
+    padding-top: 25px;
+    max-width: 100%;
+}
+
+td {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+td input {
+	border-radius: 50em;
+	border: 3px solid transparent;
+	position: relative;
+	display: inline-flex;
+	font-weight: bold;
+	text-decoration: none;
+	color: #10a87d;
+	cursor: pointer;
+}
+
+/* Scroll Bar  */
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255,255,255,0.8);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(128,128,128,0.6);
+    border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
+
+/* Scroll Bar   */

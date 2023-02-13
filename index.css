@@ -1,0 +1,126 @@
+body {
+    margin: 0%;
+    background-image: url(../Imagens/background0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h4 {
+    color: #1b1ea0;
+}
+
+
+.logo {
+    max-width: 300px;
+}
+
+.caixa {
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 2%;
+    border-radius: 0 0 55px 55px;
+}
+
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #0000f0;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.merchan {
+    color: rgb(20, 66, 196);
+    background-color: rgb(255, 255, 255, 0.6);
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.bio {
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 15px;
+    margin-top: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.obs {
+    color: rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    background: rgb(255, 255, 255, 0.7);
+    margin: 15px;
+    border-radius: 15px;
+    padding: 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    display: center;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 10px;
+}
+
+.contatos {
+    padding-top: 25px;
+    display: inline-flex;
+    position: static
+}
+
+
+ul li img {
+    margin: 2px;
+    width: 55px;
+    height: 55px;
+    padding-inline: 18px;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255,255,255,0.8);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(128,128,128,0.6);
+    border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
